@@ -11,6 +11,7 @@ public class EmailListCleaner {
         uniqueEmails=new HashSet<>();
     }
     public void addEmails(List<String>emails){
+
         emailList.addAll(emails);
     }
     public void removeDuplicates(){
